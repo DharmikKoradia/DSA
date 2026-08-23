@@ -6,21 +6,29 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 2 | 2 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [implementation](#implementation) (1)
+- [greedy](#greedy) (1)
+- [implementation](#implementation) (2)
 
 ---
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1132A | [Regular Bracket Sequence](https://codeforces.com/contest/1132/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1132/A%20-%20Regular%20Bracket%20Sequence/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 365B | [The Fibonacci Segment](https://codeforces.com/contest/365/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/365/B%20-%20The%20Fibonacci%20Segment/solution.cpp) |
+| 1132A | [Regular Bracket Sequence](https://codeforces.com/contest/1132/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1132/A%20-%20Regular%20Bracket%20Sequence/solution.cpp) |
 
 ---
 
