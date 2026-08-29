@@ -6,15 +6,16 @@
 
 | Total Problems | Topics |
 |---|---|
-| 5 | 3 |
+| 6 | 4 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [constructive algorithms](#constructive-algorithms) (1)
-- [greedy](#greedy) (3)
+- [greedy](#greedy) (4)
 - [implementation](#implementation) (3)
+- [sortings](#sortings) (1)
 
 ---
 
@@ -28,6 +29,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 990B | [Micro-World](https://codeforces.com/contest/990/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/990/B%20-%20Micro-World/solution.cpp) |
 | 1132A | [Regular Bracket Sequence](https://codeforces.com/contest/1132/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1132/A%20-%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 1165C | [Good String](https://codeforces.com/contest/1165/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1165/C%20-%20Good%20String/solution.cpp) |
 | 1990B | [Array Craft](https://codeforces.com/contest/1990/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1990/B%20-%20Array%20Craft/solution.cpp) |
@@ -39,6 +41,12 @@
 | 365B | [The Fibonacci Segment](https://codeforces.com/contest/365/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/365/B%20-%20The%20Fibonacci%20Segment/solution.cpp) |
 | 437A | [The Child and Homework](https://codeforces.com/contest/437/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/437/A%20-%20The%20Child%20and%20Homework/solution.cpp) |
 | 1132A | [Regular Bracket Sequence](https://codeforces.com/contest/1132/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1132/A%20-%20Regular%20Bracket%20Sequence/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 990B | [Micro-World](https://codeforces.com/contest/990/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/990/B%20-%20Micro-World/solution.cpp) |
 
 ---
 
