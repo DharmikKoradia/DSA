@@ -6,18 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 4 |
+| 7 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [constructive algorithms](#constructive-algorithms) (1)
 - [greedy](#greedy) (4)
 - [implementation](#implementation) (3)
 - [sortings](#sortings) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.cpp) |
 
 ### constructive algorithms
 
