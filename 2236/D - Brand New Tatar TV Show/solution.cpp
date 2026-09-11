@@ -1,0 +1,80 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+ 
+//Macro definition
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
+ 
+#define PB push_back
+#define F first
+#define S second
+#define ALL(x) (x).begin(), (x).end()
+#define RALL(x) (x).rbegin(), (x).rend()
+ 
+#define FOR(i,a,b) for(ll i=(a); i<(b); i++)
+#define RFOR(i,a,b) for(ll i=(a); i>=(b); i--)
+ 
+#define YES cout<<"Yes
+"
+#define NO cout<<"No
+"
+#define endl '
+'
+ 
+void solve()
+{
+    ll n,k;
+    cin>>n>>k;
+    
+    vll nums(n);
+    
+    FOR(i,0,n) cin>>nums[i];
+    
+    sort(RALL(nums));
+    
+    ll count=1;
+    FOR(i,1,n){
+        if(nums[i]==nums[i-1]) count++;
+        else{
+            if(count%2==0){
+                cout<<"Yes
+";
+                return;
+            }
+            if(nums[i]+k<nums[i-1]) count=1;
+            else{
+                if(count%2==1){
+                    cout<<"Yes
+";
+                    return;
+                }
+                count++;
+            }
+        }
+        
+        // cout<<i<<": "<<count<<"
+";
+    }
+    if(count%2==0){
+        cout<<"Yes
+";
+        return;
+    }
+    cout<<"No
+";
+}
+ 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t=1;
+    cin>>t;
+    while(t--)
+    {
+	    solve();
+    }
+}
