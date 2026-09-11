@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+ 
+//Macro definition
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
+ 
+#define PB push_back
+#define F first
+#define S second
+#define ALL(x) (x).begin(), (x).end()
+#define RALL(x) (x).rbegin(), (x).rend()
+ 
+#define FOR(i,a,b) for(ll i=(a); i<(b); i++)
+#define RFOR(i,a,b) for(ll i=(a); i>=(b); i--)
+ 
+#define YES cout<<"Yes
+"
+#define NO cout<<"No
+"
+#define endl '
+'
+#define DEBUG(x) cerr<<#x<<":"<<x<<"
+";
+ 
+void solve()
+{
+    ll n;
+    cin>>n;
+    
+    vll nums(n);
+    FOR(i,0,n) cin>>nums[i];
+    
+    ll count = 0;
+    
+    if(n%2){
+        NO;    
+    }
+    else{
+        FOR(i,0,n){
+            if(nums[i]==1) count++;   
+        }
+        
+        ll temp = n-count;
+        if(abs(temp-count)%4==0) YES;
+        else NO;
+    }
+    
+}
+ 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t=1;
+    cin>>t;
+    while(t--)
+    {
+	    solve();
+    }
+}
