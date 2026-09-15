@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 307 | 25 |
+| 308 | 25 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [brute force](#brute-force) (57)
 - [combinatorics](#combinatorics) (8)
 - [constructive algorithms](#constructive-algorithms) (58)
-- [data structures](#data-structures) (27)
+- [data structures](#data-structures) (28)
 - [dfs and similar](#dfs-and-similar) (8)
 - [dp](#dp) (28)
 - [dsu](#dsu) (3)
@@ -26,7 +26,7 @@
 - [games](#games) (13)
 - [geometry](#geometry) (4)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (152)
+- [greedy](#greedy) (153)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (67)
 - [math](#math) (132)
@@ -279,6 +279,7 @@
 | 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.cpp) |
 | 2252A | [Boss Fight](https://codeforces.com/contest/2252/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2252/A%20-%20Boss%20Fight/solution.cpp) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.cpp) |
+| 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 
 ### dfs and similar
 
@@ -533,6 +534,7 @@
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | 1000 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
+| 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 
 ### hashing
 
