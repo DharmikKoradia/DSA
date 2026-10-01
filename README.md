@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 313 | 25 |
+| 314 | 25 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (30)
 - [bitmasks](#bitmasks) (22)
-- [brute force](#brute-force) (57)
+- [brute force](#brute-force) (58)
 - [combinatorics](#combinatorics) (9)
 - [constructive algorithms](#constructive-algorithms) (60)
 - [data structures](#data-structures) (28)
@@ -29,8 +29,8 @@
 - [greedy](#greedy) (155)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (67)
-- [math](#math) (137)
-- [number theory](#number-theory) (40)
+- [math](#math) (138)
+- [number theory](#number-theory) (41)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (58)
@@ -130,6 +130,7 @@
 | 1673B | [A Perfectly Balanced String?](https://codeforces.com/contest/1673/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1673/B%20-%20A%20Perfectly%20Balanced%20String%3F/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.cpp) |
@@ -669,6 +670,7 @@
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
 | 1726A | [Mainak and Array](https://codeforces.com/contest/1726/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1726/A%20-%20Mainak%20and%20Array/solution.cpp) |
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
@@ -782,6 +784,7 @@
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
