@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 317 | 25 |
+| 318 | 25 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [dp](#dp) (30)
 - [dsu](#dsu) (3)
 - [flows](#flows) (1)
-- [games](#games) (13)
+- [games](#games) (14)
 - [geometry](#geometry) (4)
 - [graphs](#graphs) (5)
 - [greedy](#greedy) (155)
@@ -371,6 +371,7 @@
 | 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2271B | [MEX Game](https://codeforces.com/contest/2271/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2271/B%20-%20MEX%20Game/solution.cpp) |
 
 ### geometry
 
