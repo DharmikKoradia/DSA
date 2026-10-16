@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 318 | 25 |
+| 319 | 25 |
 
 ---
 
@@ -28,8 +28,8 @@
 - [graphs](#graphs) (5)
 - [greedy](#greedy) (155)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (67)
-- [math](#math) (139)
+- [implementation](#implementation) (68)
+- [math](#math) (140)
 - [number theory](#number-theory) (41)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (1)
@@ -630,6 +630,7 @@
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.cpp) |
 
 ### math
 
@@ -774,6 +775,7 @@
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.cpp) |
 | 2266E | [Prime Destruction](https://codeforces.com/contest/2266/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2266/E%20-%20Prime%20Destruction/solution.cpp) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.cpp) |
 
 ### number theory
 
