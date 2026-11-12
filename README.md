@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 324 | 25 |
+| 325 | 25 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (10)
+- [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (30)
 - [bitmasks](#bitmasks) (23)
 - [brute force](#brute-force) (59)
@@ -54,6 +54,7 @@
 | 2261C | [I Know About a Million Things](https://codeforces.com/contest/2261/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2261/C%20-%20I%20Know%20About%20a%20Million%20Things/solution.cpp) |
 | 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.cpp) |
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.cpp) |
+| 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 
 ### binary search
 
