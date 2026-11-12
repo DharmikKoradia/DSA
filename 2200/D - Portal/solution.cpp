@@ -5,69 +5,66 @@ using namespace std;
 //Macro definition
 typedef long long ll;
 typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
+ 
 #define PB push_back
-#define POP pop_back()
-#define FOR(i,a,b) for(ll i=a;i<b;i++)
-#define SORT(x) sort(x.begin(),x.end())
-#define RSORT(x) sort(x.rbegin(),x.rend())
-#define DEBUG(x) cerr<<#x<<" = "<<x;
-#define V(x,n) vector<ll> x(n);
+#define F first
+#define S second
+#define ALL(x) (x).begin(), (x).end()
+#define RALL(x) (x).rbegin(), (x).rend()
  
-void boothsAlgorithm(vector<ll>& arr) {
-    ll n = arr.size();
-    vector<ll> s(2*n);
-    
-    for(int i=0; i<n;i++) {
-        s[i] = arr[i];
-        s[i+n] = arr[i];
-    }
+#define FOR(i,a,b) for(ll i=(a); i<(b); i++)
+#define RFOR(i,a,b) for(ll i=(a); i>=(b); i--)
  
-    int i=0,j=1, k=0;
+#define YES cout<<"Yes
+"
+#define NO cout<<"No
+"
+#define endl '
+'
+#define DEBUG(x) cerr<<#x<<":"<<x<<"
+";
  
-    while(i<n && j<n) {
-        k=0;
-        while(k<n && s[i+k]==s[j+k])
-            k++;
  
-        if(k>=n) break;
-        if(s[i+k]>s[j+k]) i=i+k+1;
-        
-        else j=j+k+1;
- 
-        if(i==j) j++;
-    }
-    
-    int start=min(i,j);
-    for(int i=0;i<n;i++){
-        arr[i]=s[(start+i)%n];
-    }
-}
+ll treeOperator(ll a,ll b);
+void buildSegmentTree(vll &tree,vll &nums,ll i,ll l,ll r);
+ll treeQuery(vll &tree,ll start,ll end,ll i,ll l,ll r);
  
 void solve()
 {
-   ll n,s,l;
-   cin>>n>>s>>l;
-   
-   V(nums,n);
-   
-   vector<ll> a;
-  vector<ll> b;
-   FOR(i,0,n) cin>>nums[i];
-   FOR(i,0,s) a.push_back(nums[i]);
-   FOR(i,s,l) b.push_back(nums[i]);
-   FOR(i,l,n) a.push_back(nums[i]);
-   
-//   DEBUG(a.size());
-//   DEBUG(b.size());
-   boothsAlgorithm(b);
-   
-   ll t=INT_MAX;
-   if(b.size()!=0) t=b[0];
-   ll i=0;
-   while(i<a.size() && a[i]<=t) cout<<a[i++]<<" ";
-   for(auto it: b) cout<<it<<" ";
-   while(i<a.size()) cout<<a[i++]<<" ";
-   cout<<"
+    ll n,x,y;
+    
+    cin>>n>>x>>y;
+    
+    vll a,b;
+    
+    x--,
+    y--;
+    
+    for(int i=0;i<n;i++){
+        ll z;
+        cin>>z;
+        if(i<=x || i>y)a.push_back(z);
+        else b.push_back(z);
+    }
+    
+    ll least = 0;
+    for(int i=1;i<b.size();i++){
+        if(b[i]<b[least]) least = i;
+    }
+    
+    reverse(b.begin(),b.begin()+least);
+    reverse(b.begin()+least,b.end());
+    reverse(b.begin(),b.end());
+    
+    ll p1=0;
+    while(!b.empty() && p1<a.size() && a[p1]<b[0]) cout<<a[p1++]<<" ";
+    for(auto it: b) cout<<it<<" ";
+    for(int i = p1;i<a.size();i++) cout<<a[i]<<" ";
+    
+    cout<<"
 ";
 }
  
@@ -76,8 +73,38 @@ int main() {
     cin.tie(nullptr);
     int t=1;
     cin>>t;
-    while(t--)
+    for(int i=1;i<=t;i++)
     {
 	    solve();
+    }
+}
+ 
+ 
+ 
+void buildSegmentTree(vll &tree,vll &nums,ll i,ll l,ll r){
+    if(l==r){
+        tree[i] = nums[l];
+        return;
+    }
+    
+    ll mid = l + ((r-l)>>1);
+    buildSegmentTree(tree,nums,2*i+1,l,mid);
+    buildSegmentTree(tree,nums,2*i+2,mid+1,r);
+    
+    tree[i] = treeOperator(tree[2*i+1],tree[2*i+2]);
+}
+ 
+ll treeOperator(ll a,ll b){
+    return (a&b);    
+}
+ 
+ll treeQuery(vll &tree,ll start,ll end,ll i,ll l,ll r){
+    ll mid = l + ((r-l)>>1);
+    if(start>r || end<l) return 0;
+    else if(l>=start && r<=end) return tree[i];
+    else{
+        return treeOperator(treeQuery(tree,start,end,2*i+1,l,mid),
+            treeQuery(tree,start,end,2*i+2,mid+1,r)
+        );
     }
 }
