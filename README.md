@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 326 | 25 |
+| 327 | 25 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [binary search](#binary-search) (30)
 - [bitmasks](#bitmasks) (23)
 - [brute force](#brute-force) (59)
-- [combinatorics](#combinatorics) (9)
+- [combinatorics](#combinatorics) (10)
 - [constructive algorithms](#constructive-algorithms) (63)
 - [data structures](#data-structures) (28)
 - [dfs and similar](#dfs-and-similar) (8)
@@ -29,12 +29,12 @@
 - [greedy](#greedy) (156)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (69)
-- [math](#math) (141)
+- [math](#math) (142)
 - [number theory](#number-theory) (41)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (58)
-- [strings](#strings) (28)
+- [strings](#strings) (29)
 - [trees](#trees) (6)
 - [two pointers](#two-pointers) (30)
 
@@ -197,6 +197,7 @@
 | 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
+| 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2285/B%20-%20Diverse%20String/solution.cpp) |
 
 ### constructive algorithms
 
@@ -786,6 +787,7 @@
 | 2266E | [Prime Destruction](https://codeforces.com/contest/2266/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2266/E%20-%20Prime%20Destruction/solution.cpp) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.cpp) |
+| 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2285/B%20-%20Diverse%20String/solution.cpp) |
 
 ### number theory
 
@@ -940,6 +942,7 @@
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
+| 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2285/B%20-%20Diverse%20String/solution.cpp) |
 
 ### trees
 
