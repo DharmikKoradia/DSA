@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 328 | 25 |
+| 329 | 25 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (13)
+- [Uncategorized](#uncategorized) (14)
 - [binary search](#binary-search) (30)
 - [bitmasks](#bitmasks) (23)
 - [brute force](#brute-force) (59)
@@ -57,6 +57,7 @@
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 | 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 | 2292C | [Finding Shapes in the Clouds](https://codeforces.com/contest/2292/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2292/C%20-%20Finding%20Shapes%20in%20the%20Clouds/solution.cpp) |
+| 2292D | [Unexpected Precipitation](https://codeforces.com/contest/2292/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/DharmikKoradia/DSA/blob/HEAD/2292/D%20-%20Unexpected%20Precipitation/solution.cpp) |
 
 ### binary search
 
